@@ -1,0 +1,46 @@
+{
+  "domain": "campus-support-demo",
+  "labels": {
+    "account": "账户登录、身份验证和账户权限",
+    "materials": "课程资料、课件和课程阅读文件",
+    "schedule": "上课时间、教室和排课通知",
+    "other": "不属于上述类别的校园服务问题"
+  },
+  "cases": [
+    {
+      "id": "ticket-01",
+      "topic": "course-materials",
+      "text": "课程平台可以正常登录，但第三周讲义的下载链接打开后提示文件不存在。",
+      "features": [
+        "download-failure",
+        "login-works"
+      ]
+    },
+    {
+      "id": "ticket-02",
+      "topic": "course-materials",
+      "text": "能打开课程主页。老师说已上传阅读材料，但课程文件区的 PDF 链接不能下载。",
+      "features": [
+        "download-failure",
+        "login-works"
+      ]
+    },
+    {
+      "id": "ticket-03",
+      "topic": "class-schedule",
+      "text": "教务系统里周四的实验课显示两个不同教室，请确认最新安排。",
+      "features": [
+        "conflicting-class-location"
+      ]
+    },
+    {
+      "id": "ticket-04",
+      "topic": "signin",
+      "text": "尝试登录选课系统时收不到验证邮件，密码重置也进不去。",
+      "features": [
+        "cannot-sign-in",
+        "verification-email-missing"
+      ]
+    }
+  ]
+}

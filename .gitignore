@@ -1,0 +1,66 @@
+# Python 环境、缓存和构建
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+
+# 凭据和本地配置
+.env
+.env.*
+.envrc
+.netrc
+.git-credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# 运行记录和数据库
+*.log
+*.sqlite3
+*.sqlite3-*
+logs/
+output/
+/tmp/*_trial/
+/tmp/blind_*/
+/tmp/guarded_*/
+/tmp/knowledge_applicability_*/
+/tmp/submission_preflight_*/
+/tmp/baseline_round*/
+/tmp/docker_round*/
+/tmp/io_round*/
+/tmp/reflective_v*/
+/tmp/smoke_output/
+/tmp/v01/
+/tmp/pdf_pages_*.png
+
+# 官方原件、自测数据和本地快照
+/reference/
+/data/selftest/
+/baselines/
+/Dockerfile
+/README.md
+/requirements.txt
+/run.sh
+/src/
+/dev/README.md
+/START_HERE.md
+
+# 本地约定和历史交接、运行文档
+/AGENTS.md
+/B05_项目进度与协作交接.md
+/docs/Codex_第一轮任务.md
+/docs/*轮*报告.md
+/docs/开发说明.md
+/docs/成果简介_通用软件验证稿.md
+/docs/项目交接说明.md

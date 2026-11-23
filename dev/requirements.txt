@@ -1,0 +1,7 @@
+# 选手按需声明 Python 依赖，评测服务构建镜像时会执行：
+#   pip install -r requirements.txt
+#
+# 按需添加第三方库，例如：
+# requests>=2.28
+#
+# 纯标准库方案可保持为空（仅注释）。
